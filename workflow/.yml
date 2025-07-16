@@ -1,0 +1,13 @@
+name: Runner Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check runner
+        run: echo "Runner is working!"
