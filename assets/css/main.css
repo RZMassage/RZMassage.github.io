@@ -4514,7 +4514,7 @@ input, select, textarea {
 		}
 
 		#navPanelToggle:before {
-			content: '\f0c9';
+			/* content: '\f0c9'; MAKES LITTLE SQUARE APPEAR*/
 			margin-right: 0.5rem;
 		}
 
@@ -4632,7 +4632,7 @@ input, select, textarea {
 			}
 
 			#navPanel .close:before {
-				content: '\f00d';
+				/* content: '\f00d'; MAKES LITTLE SQUARES APPEAR */
 				font-size: 1.25rem;
 			}
 
